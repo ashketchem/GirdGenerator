@@ -1,0 +1,13 @@
+.gird-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  --gird-item-width: calc(100 / var(--gird-size));
+  --gird-item-height: calc(100% / var(--gird-size));
+}
+.gird-item {
+  width: var(--gird-item-width);
+  height: var(--gird-item-height);
+  background-color: #ccc;
+  border: 1px solid #999;
+}
