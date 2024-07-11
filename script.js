@@ -4,7 +4,7 @@ const girdContainer = document.querySelector(".grid-container");
 generateGridButton.addEventListener("click", () => {
   const girdSize = parseInt(girdSizeInput.value);
   const numGirdItems = girdSize * girdSize;
-  if (numGirdItems < 10 || numGirdItems > 100) {
+  if (girdSize < 10 || girdSize > 100) {
     return alert("invalid input, enter a number between 10 to 100.");
   } else {
     girdContainer.innerHTML = '';
