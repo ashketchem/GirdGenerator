@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  backgroud-color: #333;
+  background-color: #333;
   color: #fff;
 }
 
@@ -12,7 +12,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   --gird-item-width: calc(100 / var(--gird-size));
-  --gird-item-height: calc(100% / var(--gird-size));
+  --gird-item-height: calc(100 / var(--gird-size));
 }
 .gird-item {
   width: var(--gird-item-width);
@@ -22,7 +22,7 @@ body {
 }
 
 .input {
-  margin : 50px auto;
+  margin : auto 50px;
   height: 30px;
   width: auto; 
   padding: 10px;
